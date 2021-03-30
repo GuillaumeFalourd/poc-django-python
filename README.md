@@ -15,13 +15,21 @@ pip3 install django
 python3 -m django --version
 ```
 
-## Run the server
+## Testing
+
+Enter the blog directory:
+
+```bash
+cd blog
+```
+
+Then execute the following command to run the server
 
 ```bash
 python manage.py runserver
 ```
 
-Then access:
+Then access on your navigator:
 
 ```bash
 http://127.0.0.1:8000/
